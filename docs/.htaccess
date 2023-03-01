@@ -1,0 +1,6 @@
+RewriteEngine on
+
+
+RewriteBase /
+RewriteRule ^(([^/]+/)*[^.]+)$ /$1.php [L]
+ErrorDocument 404 /404.html
